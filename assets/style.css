@@ -1,13 +1,13 @@
 
 * {
-    margin: 0; 
-    padding: 0;
+    margin: 0;
+    padding: 0;             /*deixar o inicio do código padrão em qualquer navegador */
     box-shadow: 0;
 }
 
 main{
     display: flex;
-    justify-content: center;
+    justify-content: center;        /*ajustar o site em uma posição específica da tela*/
     flex-direction: column;
     width: 100vw;
     height: 100vh;
@@ -16,26 +16,26 @@ main{
 section {
     display: flex; 
     flex-direction: column;
-    gap: 20px;
     align-items: center;
-    padding: 15px;
+    gap: 20px;                      /*gap é usado para dar espaço vertical*/
+    padding: 15px;                  /*padding é usado para definir o tamanho de algo especifico*/
     border-radius: 15px;
-    margin-top: 300px;
-    background-color: #f2f2f2;
-    margin: auto;
-    box-shadow: 5px 5px black
+    margin-top: 300px;              /*mar-top cria uma margem acima da page e coloca o restante abaixo dela*/
+    background-color: #f2f2f2;      /*cor de fundo*/
+    margin: auto;                   /*cria a margem automaticamente*/
+    box-shadow: 5px 5px black       /*da um efeito de sombra*/
 }
 
 button {
     padding: 15px 10px;
     border-radius: 10px;  
-    cursor: pointer;  
+    cursor: pointer;                /*muda o cursor ao passar por cima do botao */
     background-color: rgba(55, 51, 58, 0.253);
 }
 
 button:hover{
-    transition: 1s;
-    background-color: #f2f2f2;
+    transition: 1s;                     /*velocidade que a cor muda ao passar o mouse por cima do botao*/
+    background-color: #f2f2f2;              
 }
 
 #buttons {
